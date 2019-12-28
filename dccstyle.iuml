@@ -1,22 +1,39 @@
 @startuml
 
-!define BORDER #3FBC5F
-!define LINE #3FBC5F
+!define BOTTLE_GREEN #0D4E31
+!define MINE_SHAFT #313131
+!define SILVER #C2C2C2
+!define EUCALYPTUS #2D9263
+!define CHATEAU_GREEN #3FBC5F
+!define GALLERY #EFEFEF
+!define HIGHLIGHT_GREEN #AFFCC6
+!define DODGER_BLUE #1596F8
+!define ORANGE_PEEL #FF9B00
+
+!define BACKGROUND_LIGHT WHITE
+!define BACKGROUND_DARK CHATEAU_GREEN
+!define BORDER_LIGHT WHITE
+!define BORDER_DARK CHATEAU_GREEN
+!define LINE CHATEAU_GREEN
+!define FONT_INVERTED WHITE
+!define FONT_LIGHT CHATEAU_GREEN
+!define FONT_DARK BOTTLE_GREEN
 
 skinparam {
-Shadowing false
+  shadowing false
   roundcorner 15
+  ArrowColor LINE
+  ActorBackgroundColor BACKGROUND_LIGHT
+  ActorBorderColor BORDER_DARK
+  ActorFontColor FONT_LIGHT
+  ParticipantBorderColor BORDER_DARK
+	ParticipantBackgroundColor BACKGROUND_DARK
+  ParticipantFontColor FONT_INVERTED
 }
+
 skinparam sequence {
-	ArrowColor LINE
-	ActorBorderColor BORDER
 	LifeLineBorderColor LINE
-	LifeLineBackgroundColor white
-  
-	ParticipantBorderColor BORDER
-	ParticipantBackgroundColor white
-  
-	ActorBackgroundColor white
+	LifeLineBackgroundColor BACKGROUND_DARK
 }
 
 @enduml
