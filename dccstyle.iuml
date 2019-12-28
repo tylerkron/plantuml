@@ -1,3 +1,22 @@
+@startuml
+
+!define BORDER #3FBC5F
+!define LINE #3FBC5F
+
 skinparam {
-    roundcorner 15
+Shadowing false
+  roundcorner 15
 }
+skinparam sequence {
+	ArrowColor LINE
+	ActorBorderColor BORDER
+	LifeLineBorderColor LINE
+	LifeLineBackgroundColor white
+  
+	ParticipantBorderColor BORDER
+	ParticipantBackgroundColor white
+  
+	ActorBackgroundColor white
+}
+
+@enduml
