@@ -28,6 +28,7 @@ skinparam {
   ActorFontColor FONT_LIGHT
   DatabaseBackgroundColor BACKGROUND_DARK
   DatabaseBorderColor BACKGROUND_LIGHT
+  DatabaseFontColor FONT_LIGHT
   ParticipantBorderColor BORDER_DARK
 	ParticipantBackgroundColor BACKGROUND_DARK
   ParticipantFontColor FONT_INVERTED
