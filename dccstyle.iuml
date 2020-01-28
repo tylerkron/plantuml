@@ -32,6 +32,9 @@ skinparam {
   ParticipantBorderColor BORDER_DARK
 	ParticipantBackgroundColor BACKGROUND_DARK
   ParticipantFontColor FONT_INVERTED
+  ObjectBorderColor BORDER_DARK
+  ObjectBackgroundColor BACKGROUND_DARK
+  ObjectFontColor FONT_INVERTED
 }
 
 skinparam sequence {
