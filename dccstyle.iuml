@@ -35,6 +35,9 @@ skinparam {
   ObjectBorderColor BORDER_DARK
   ObjectBackgroundColor BACKGROUND_DARK
   ObjectFontColor FONT_INVERTED
+  ObjectAttributeFontColor FONT_INVERTED
+  PackageFontColor FONT_DARK
+  PackageBorderColor BORDER_DARK
 }
 
 skinparam sequence {
